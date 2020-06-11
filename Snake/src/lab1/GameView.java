@@ -98,7 +98,7 @@ public class GameView extends JComponent {
 			 * getter method in the model (forced by having an abstract
 			 * 'getScore' method in GameModel).
 			 */
-			g.setColor(Color.BLACK);
+			g.setColor(Color.GRAY);
 			g.setFont(new Font("Sans", Font.BOLD, 14));
 			
 			String scoreString = (this.model.getScore() == 1) ? "point" : "points";
